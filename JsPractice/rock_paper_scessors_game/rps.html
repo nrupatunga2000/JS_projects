@@ -118,7 +118,8 @@ if(result === 'you Win!'){
         score.loose += 1;
     }
     score.score = 1*score.wins
-
+   
+    localStorage.setItem('score', JSON.stringify(score));
 //popup notification alter command 
     alert(`your move is Paper, computer move is ${computerMove} and ${result}.
     wins = ${score.wins}, losse = ${score.loose}, score = ${score.score}`)
@@ -142,6 +143,7 @@ if(result === 'you Win!'){
     }
     score.score = 1*score.wins
 
+    localStorage.setItem('score', JSON.stringify(score));
 //popup notification alter command 
     alert(`your move is Scissor, computer move is ${computerMove} and ${result}.
     wins = ${score.wins}, losse = ${score.loose}, score = ${score.score}`)

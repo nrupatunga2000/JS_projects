@@ -10,5 +10,6 @@ strong.innerText = "love you tanu"
 body.append(strong)
 
 const spanHi = document.querySelector("#hi")
-spanHi.remove()
+spanHi.setAttribute("id","shi")
+console.log(spanHi.getAttribute("id"));
 

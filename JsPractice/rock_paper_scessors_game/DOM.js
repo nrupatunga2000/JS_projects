@@ -9,7 +9,12 @@ const strong = document.createElement("strong")
 strong.innerText = "love you tanu"
 body.append(strong)
 
+
 const spanHi = document.querySelector("#hi")
 spanHi.setAttribute("id","shi")
 console.log(spanHi.getAttribute("id"));
+
+const btn = document.querySelector("#sub_btn")
+btn.remove()
+
 

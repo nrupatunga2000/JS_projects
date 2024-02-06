@@ -17,4 +17,7 @@ console.log(spanHi.getAttribute("id"));
 const btn = document.querySelector("#sub_btn")
 btn.remove()
 
+var p = document.querySelector(".para")
+p.innerHTML = "My love"
+body.append(p)
 

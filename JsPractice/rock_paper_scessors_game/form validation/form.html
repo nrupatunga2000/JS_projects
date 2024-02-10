@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="/">
+        <form action="/" id="form">
             <h1>Registration</h1>
             <div class="input-control">
                 <label for="username">Username</label>
@@ -19,7 +19,7 @@
 
             <div class="input-control">
                 <label for="Email">Email</label>
-                <input type="text" id="email" name="email">
+                <input type="email" id="email" name="email">
             </div>
             <div class="error"></div>
 
@@ -34,6 +34,9 @@
                 <input type="password" id="password2" name="password2">
             </div>
             <div class="error"></div>
+            <div class="btn">
+                <button type="submit">Submit</button>
+            </div>
         </form>
     </div>
 </body>

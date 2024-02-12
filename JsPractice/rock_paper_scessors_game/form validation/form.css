@@ -1,12 +1,63 @@
 body{
-    background: rgb(151, 234, 208)
+    background: rgb(40, 125, 98)
 }
 
 #form{
     width: 300px;
-    margin: 20px;
+    margin: 100px;
+    margin-left: 35%;
     padding: 50px;
     border-radius: 4px;
-    background: rgb(226, 245, 244);
+    background: #9df2ee;    
+}
+
+#form h1 {
+    text-align: center;
     
+}
+
+#form button{
+    background-color: rgb(12, 99, 238);
+    border-radius: 4px;
+    border: 1px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 93%;
+    color: white;
+    margin-top: 30px;
+    
+}
+
+.input-control{
+    display: flex;
+    flex-direction: column; //to allign them in straight way  
+}
+
+.input-control input{
+    border: 2px solid white;
+    border-radius: 4px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    width: 85%;
+}
+
+.input-control input:focus{
+    outline: 0;
+}
+
+.input-control.success input{
+    border-color: green;
+}
+
+.input-control.error input{
+    border-color: red;
+}
+
+.input-control.error{
+    color: red;
+    font-size: 9px;
+    height: 14px;
+
 }
